@@ -12,13 +12,14 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using 区域导航.ViewModels;
 
 namespace 区域导航.Views
 {
     /// <summary>
     /// Login.xaml 的交互逻辑
     /// </summary>
-    public partial class Login : UserControl
+    public partial class Login 
     {
         public Login()
         {

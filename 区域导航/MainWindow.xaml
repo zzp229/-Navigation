@@ -5,12 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:conv="clr-namespace:区域导航.Converters"
         xmlns:local="clr-namespace:区域导航"
+        xmlns:views="clr-namespace:区域导航.Views"
         xmlns:vm="clr-namespace:区域导航.ViewModels"
         d:DataContext="{d:DesignInstance Type=vm:MainViewModel}"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800"
+        Loaded="Window_Loaded">
     <Window.DataContext>
-        <vm:MainViewModel></vm:MainViewModel>
+        <vm:MainViewModel/>
     </Window.DataContext>
 
     <Window.Resources>

@@ -12,13 +12,14 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using 区域导航.ViewModels;
 
 namespace 区域导航.Views
 {
     /// <summary>
     /// Home.xaml 的交互逻辑
     /// </summary>
-    public partial class Home : UserControl
+    public partial class Home 
     {
         public Home()
         {

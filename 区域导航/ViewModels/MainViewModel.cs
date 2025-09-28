@@ -11,15 +11,12 @@ namespace 区域导航.ViewModels
     public partial class MainViewModel : ViewModelBase
     {
         [ObservableProperty]
-        ApplicationPage currentPage;
-
+        private ApplicationPage currentPage;
 
         public MainViewModel()
         {
-            
+            // 初始化为空页面
+            CurrentPage = ApplicationPage.Empty;
         }
-
-
-
     }
 }
