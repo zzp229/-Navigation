@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "区域导航", "区域导�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kevin的导航", "Kevin的导航\Kevin的导航.csproj", "{12EDA58B-18BA-43EC-9727-AB755287D544}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonSean的导航", "SingletonSean的导航\SingletonSean的导航.csproj", "{08AE6FF8-11DE-4817-8912-8939F2F3E2EC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{12EDA58B-18BA-43EC-9727-AB755287D544}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12EDA58B-18BA-43EC-9727-AB755287D544}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12EDA58B-18BA-43EC-9727-AB755287D544}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08AE6FF8-11DE-4817-8912-8939F2F3E2EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08AE6FF8-11DE-4817-8912-8939F2F3E2EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08AE6FF8-11DE-4817-8912-8939F2F3E2EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08AE6FF8-11DE-4817-8912-8939F2F3E2EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

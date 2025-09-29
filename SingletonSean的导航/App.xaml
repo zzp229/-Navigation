@@ -1,0 +1,9 @@
+﻿<Application x:Class="SingletonSean的导航.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:SingletonSean的导航"
+             >
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>
