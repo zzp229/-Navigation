@@ -5,23 +5,26 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Kevin的导航"
         mc:Ignorable="d"
-        xmlns:views="clr-namespace:Kevin的导航.Views"
+        xmlns:views="clr-namespace:Kevin的导航.Views" 
+        xmlns:vm="clr-namespace:Kevin的导航.ViewModels"
         d:DataContext="{d:DesignInstance Type=local:MainWindow}"
         Title="MainWindow" Height="450" Width="800">
     <TabControl ItemsSource="{Binding ViewModels}">
+        <!--这个是左侧的导航-->
         <TabControl.ItemTemplate>
             <DataTemplate>
                 <TextBlock Text="{Binding Header}"/>
             </DataTemplate>
         </TabControl.ItemTemplate>
+        <!--这个是导航到的页面-->
         <TabControl.Resources>
-            <DataTemplate DataType="{x:Type local:Page1ViewModel}">
+            <DataTemplate DataType="{x:Type vm:Page1ViewModel}">
                 <views:Page1/>
             </DataTemplate>
-            <DataTemplate DataType="{x:Type local:Page2ViewModel}">
+            <DataTemplate DataType="{x:Type vm:Page2ViewModel}">
                 <views:Page2/>
             </DataTemplate>
-            <DataTemplate DataType="{x:Type local:Page3ViewModel}">
+            <DataTemplate DataType="{x:Type vm:Page3ViewModel}">
                 <views:Page3/>
             </DataTemplate>
         </TabControl.Resources>
